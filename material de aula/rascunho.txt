@@ -1,0 +1,39 @@
+const pokemons = [
+    {
+        nome: "Poochyena",
+        tipo: "Roedor",
+        peso: "13,6 kg",
+        altura: "0.5 m",
+        habilidades: ["Fugir", "Pés rápidos"],
+        descricao: "Poochyena é um Pokémon do tipo Roedor. Ele possui uma pressas grandes para intimidar seus oponentes."
+    },
+    {
+        nome: "Zi",
+        tipo: "Fogo",
+        peso: "8.5 kg",
+        altura: "0.6 m",
+        habilidades: ["Blaze", "Solar Power"],
+        descricao: "Charmander é um Pokémon do tipo Fogo. Ele é conhecido pela chama em sua cauda que representa sua energia vital."
+    },
+    {
+        nome: "Pikachu",
+        tipo: "Elétrico",
+        peso: "6.0 kg",
+        altura: "0.4 m",
+        habilidades: ["Static", "Lightning Rod"],
+        descricao: "Pikachu é um Pokémon do tipo Elétrico. Ele pode armazenar eletricidade em suas bochechas e liberá-la em seus ataques."
+    },
+    {
+        nome: "Mewtwo",
+        tipo: "Psíquico",
+        peso: "122.0 kg",
+        altura: "2.0 m",
+        habilidades: ["Pressure", "Unnerve"],
+        descricao: "Mewtwo é um Pokémon do tipo Psíquico. Criado artificialmente, ele possui poderes psíquicos extremamente fortes."
+    }
+];
+
+// Função para exibir mensagem de cadastro
+pokemons.forEach(pokemon => {
+    console.log(pokemon.nome + " cadastrado com sucesso!");
+});
